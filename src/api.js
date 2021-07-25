@@ -1,5 +1,4 @@
 import { createClient } from "contentful";
-import { setBlogsItems } from "./utils.js";
 
 const client = createClient({
   space: "x7unjw75q1xe",

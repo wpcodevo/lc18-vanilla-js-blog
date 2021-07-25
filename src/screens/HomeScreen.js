@@ -26,7 +26,7 @@ const HomeScreen = {
         })
         .join("\n");
       template.insertAdjacentHTML("beforeend", data);
-      if (blogs.length === 1) {
+      if (blogs.length === 0) {
         btn.disabled = true;
         btn.innerText = "no more blogs";
       }
