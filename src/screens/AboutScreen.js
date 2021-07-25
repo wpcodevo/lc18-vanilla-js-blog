@@ -8,6 +8,9 @@ const AboutScreen = {
             </div>
             <div class="article-container">
             <div class="content">
+            <div class="top">
+            <h1>About Me</h1>
+            </div>
             <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Laborum labore recusandae ratione dolorum deserunt maiores,
