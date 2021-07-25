@@ -201,6 +201,10 @@ li {
 }
 
 /* Content */
+#content {
+  min-height: 50vh;
+}
+
 .blog-layout {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
