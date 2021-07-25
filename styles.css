@@ -272,6 +272,26 @@ li {
   font-size: 1.4rem;
 }
 
+@media (max-width: 567px) {
+  .blog .blog-text h2 {
+    height: 50px;
+    font-size: 2rem;
+  }
+
+  .ad {
+    margin: 1rem auto;
+    height: 10rem;
+  }
+
+  .ad a img {
+    object-fit: contain;
+  }
+
+  .blog .blog-img {
+    height: 20rem;
+  }
+}
+
 .load-btn {
   margin-top: 5rem;
   text-align: center;
@@ -436,6 +456,17 @@ li {
   }
 }
 
+@media (max-width: 567px) {
+  .article-container .top h1 {
+    font-size: 2rem;
+  }
+  .article-container .featured-image,
+  .article-container .content .content-img {
+    height: 25rem;
+    margin: 1rem 0;
+  }
+}
+
 /* YouTube and Vimeo */
 
 .iframe-container {
@@ -458,6 +489,11 @@ li {
 @media (max-width: 767px) {
   .iframe-container {
     height: 25rem;
+  }
+}
+@media (max-width: 567px) {
+  .iframe-container {
+    height: 20rem;
   }
 }
 
