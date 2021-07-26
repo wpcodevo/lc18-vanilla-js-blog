@@ -536,6 +536,13 @@ li {
   margin-top: 15px;
 }
 
+@media (max-width: 567px) {
+  .error404 .errorImage {
+    height: 20rem;
+    width: 20rem;
+  }
+}
+
 /* Contact Form */
 .form {
   max-width: 55rem;
