@@ -2,7 +2,7 @@ import { createClient } from "contentful";
 
 const client = createClient({
   space: "x7unjw75q1xe",
-  accessToken: "_P7C5B9psrFALzVYo_eVc_ySYg7_pl4HurbyiEhqNGE",
+  accessToken: "cDegdTEiWO9SkDSnif0cZg-WNAEiu7S5KZQWFEhPPis",
 });
 
 export const getBlogs = async (limit = 6, skip = 0) => {
