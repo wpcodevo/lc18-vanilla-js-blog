@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env webpack --mode development",
-    "build": "cross-env webpack --mode production",
-    "dev": "cross-env webpack serve --mode development"
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development"
   },
   "keywords": [],
   "author": "",
@@ -20,8 +20,6 @@
     "sweetalert2": "^11.0.20"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
-    "dotenv-flow-webpack": "^1.1.0",
     "dotenv-webpack": "^7.0.3",
     "html-webpack-plugin": "^5.3.2",
     "webpack": "^5.45.1",
