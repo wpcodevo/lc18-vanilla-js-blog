@@ -5,8 +5,6 @@ const client = createClient({
   accessToken: "cDegdTEiWO9SkDSnif0cZg-WNAEiu7S5KZQWFEhPPis",
 });
 
-console.log(process.env.TOKEN);
-
 export const getBlogs = async (limit = 6, skip = 0) => {
   try {
     // Pagination
