@@ -1,8 +1,8 @@
 import { createClient } from "contentful";
 
 const client = createClient({
-  space: process.env.SPACE_ID,
-  accessToken: process.env.TOKEN,
+  space: "x7unjw75q1xe",
+  accessToken: "cDegdTEiWO9SkDSnif0cZg-WNAEiu7S5KZQWFEhPPis",
 });
 
 export const getBlogs = async (limit = 6, skip = 0) => {
