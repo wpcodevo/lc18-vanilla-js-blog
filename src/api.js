@@ -1,15 +1,9 @@
 import { createClient } from "contentful";
 
 const client = createClient({
-  space: "x7unjw75q1xe",
-  accessToken: "cDegdTEiWO9SkDSnif0cZg-WNAEiu7S5KZQWFEhPPis",
+  space: process.env.SPACE_ID,
+  accessToken: process.env.TOKEN,
 });
-
-if (process.env.NODE_ENV === "production") {
-  console.log(process.env.SPACE_ID);
-} else if (process.env.NODE_ENV === "development") {
-  console.log(process.env.TOKEN);
-}
 
 export const getBlogs = async (limit = 6, skip = 0) => {
   try {
