@@ -5,6 +5,12 @@ const client = createClient({
   accessToken: "cDegdTEiWO9SkDSnif0cZg-WNAEiu7S5KZQWFEhPPis",
 });
 
+if (process.env.NODE_ENV === "production") {
+  console.log(process.env.SPACE_ID);
+} else if (process.env.NODE_ENV === "development") {
+  console.log(process.env.TOKEN);
+}
+
 export const getBlogs = async (limit = 6, skip = 0) => {
   try {
     // Pagination
